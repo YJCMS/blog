@@ -1,7 +1,7 @@
 import { Controller, Param, Body, Delete, Get, Post, Put} from '@nestjs/common';
-import { PostDto } from './blog.model';
+import { PostDto } from './board.model';
 
-export class BlogService {
+export class BoardService {
   posts = []; // 게시글 배열 선언
 
   getAllPosts() {
