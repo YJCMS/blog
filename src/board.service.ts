@@ -1,4 +1,3 @@
-import { Controller, Param, Body, Delete, Get, Post, Put} from '@nestjs/common';
 import { PostDto } from './board.model';
 
 export class BoardService {
