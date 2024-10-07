@@ -40,3 +40,4 @@ export class BoardController {
     return this.boardService.updatePost(id, postDto);
   }
 }
+
