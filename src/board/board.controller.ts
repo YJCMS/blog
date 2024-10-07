@@ -1,6 +1,7 @@
 import { Controller, Param, Body, Delete, Get, Post, Put } from '@nestjs/common';
 import { BoardService } from './board.service';
 
+
 @Controller('board')
 export class BoardController {
   boardService: BoardService;
