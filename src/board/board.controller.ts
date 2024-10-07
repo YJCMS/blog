@@ -4,9 +4,8 @@ import { BoardService } from './board.service';
 
 @Controller('board')
 export class BoardController {
-  boardService: BoardService;
-  constructor() {
-    this.boardService = new BoardService(); // 생성자에서 블로그 서비스 생성
+  constructor(private boardService : BoardService) {
+    //this.boardService = new BoardService(); // 해당 코드 생략( 위 접근자를 이용해서 construct에 넣어줌)
   }
 
   @Get()
